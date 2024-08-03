@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: right;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav button {
+    padding: 10px 20px;
+    background-color: #0056FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    justify-content: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #0056FF;
+    line-break: loose;
+    margin-bottom: 15px;
+}
+
+p {
+    line-break: 1.5;
+    margin-bottom: 15px;
+}
+
+#insulationChart {
+    width: 80%; 
+    max-width: 600px; 
+}
